@@ -1,0 +1,19 @@
+.hat {
+   background: url("../img/noise-lines.png"), radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
+   width: 100%;
+}
+
+.hat__navigation {
+   display: flex;
+}
+
+.hat__logo {
+   border: 1px solid red;
+}
+
+.hat__menu {
+   border: 1xp solid green;
+   list-style: none;
+
+   display: flex;
+}
