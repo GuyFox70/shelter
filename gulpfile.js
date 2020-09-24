@@ -149,13 +149,13 @@ function js() {
 
 function images() {
    return src(path.src.img)
-      .pipe(
-         webp({
-            quality: 70
-         })
-      )
-      .pipe(dest(path.build.img))
-      .pipe(src(path.src.img))
+      // .pipe(
+      //    webp({
+      //       quality: 70
+      //    })
+      // )
+      // .pipe(dest(path.build.img))
+      // .pipe(src(path.src.img))
       .pipe(
          imagemin({
             progressive: true,

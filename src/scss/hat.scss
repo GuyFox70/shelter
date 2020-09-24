@@ -3,16 +3,26 @@
    width: 100%;
 }
 
+.hat__container {
+   padding: 2% 0 0 0;
+}
+
 .hat__navigation {
    display: flex;
 }
 
 .hat__logo {
-   border: 1px solid red;
+   & > h1 {
+      margin: 0;
+      color: #f1cdb3;
+
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: 32px;
+      font-weight: normal;
+   }
 }
 
 .hat__menu {
-   border: 1xp solid green;
    list-style: none;
 
    display: flex;
