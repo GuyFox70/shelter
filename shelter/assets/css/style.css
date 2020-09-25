@@ -1,6 +1,5 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -29,12 +28,8 @@ body {
 }
 
 .hat__navigation {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .hat__logo {
@@ -65,15 +60,9 @@ body {
 .hat__menu {
   width: 37%;
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hat__menu > li {
@@ -99,7 +88,4 @@ body {
 
 .hat__menu > .hat__menu-item_active {
   border-bottom: 3px solid #f1cdb3;
-}
-@supports (-webkit-appearance:none){
-.hat{background:url("../img/noise-lines.webp"), radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20}
 }
