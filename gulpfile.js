@@ -91,13 +91,13 @@ function css() {
       .pipe(
          group_media()
       )
-      .pipe(
-         autoprefexir({
-            overrideBrowserslist: ['last 2 versions'],
-            cascade: true
-         })
-      )
-      .pipe(webpcss())
+      // .pipe(
+      //    autoprefexir({
+      //       overrideBrowserslist: ['last 2 versions'],
+      //       cascade: true
+      //    })
+      // )
+      // .pipe(webpcss())
       .pipe(dest(path.build.css))
       .pipe(clean_css())
       .pipe(

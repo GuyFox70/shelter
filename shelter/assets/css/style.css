@@ -25,7 +25,7 @@ body {
 }
 
 .hat__container {
-  padding: 2% 0 0 0;
+  padding: 3.2% 0 0 0;
 }
 
 .hat__navigation {
@@ -34,12 +34,29 @@ body {
   display: flex;
 }
 
+.hat__logo {
+  text-align: center;
+}
+
 .hat__logo > h1 {
   margin: 0;
   color: #f1cdb3;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 32px;
   font-weight: normal;
+  font-style: normal;
+  letter-spacing: 0.06em;
+}
+
+.hat__logo > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  color: #fff;
+  margin: 4.5% 0 0 0;
 }
 
 .hat__menu {
