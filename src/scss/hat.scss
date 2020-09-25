@@ -9,6 +9,7 @@
 
 .hat__navigation {
    display: flex;
+   justify-content: space-between;
 }
 
 .hat__logo {
@@ -39,7 +40,36 @@
 }
 
 .hat__menu {
+   width: 37%;
    list-style: none;
 
    display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   & > li {
+      height: 40%;
+      border-bottom: 3px solid rgba(241, 205, 179, 0);
+
+      & > a {
+         display: block;
+         width: 100%;
+         height: 100%;
+         text-decoration: none;
+
+         font-family: Arial;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 15px;
+         color: #fafafa;
+      }
+   }
+
+   & > li:hover {
+      border-bottom: 3px solid rgba(241, 205, 179, 1);
+   }
+
+   & > .hat__menu-item_active {
+      border-bottom: 3px solid rgba(241, 205, 179, 1);
+   }
 }

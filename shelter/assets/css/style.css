@@ -32,6 +32,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .hat__logo {
@@ -60,10 +63,42 @@ body {
 }
 
 .hat__menu {
+  width: 37%;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hat__menu > li {
+  height: 40%;
+  border-bottom: 3px solid rgba(241, 205, 179, 0);
+}
+
+.hat__menu > li > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: #fafafa;
+}
+
+.hat__menu > li:hover {
+  border-bottom: 3px solid #f1cdb3;
+}
+
+.hat__menu > .hat__menu-item_active {
+  border-bottom: 3px solid #f1cdb3;
 }
 @supports (-webkit-appearance:none){
 .hat{background:url("../img/noise-lines.webp"), radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20}
